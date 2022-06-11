@@ -1,0 +1,55 @@
+:root {
+  --white: #ffff;
+  --BrightBlue: hsl(224, 93%, 58%);
+  --ModerateCyan: hsl(170, 45%, 43%);
+  --LightGrayishBlue: hsl(240, 75%, 98%);
+  --LightGray: hsl(0, 0%, 75%);
+}
+
+header {
+  padding: 2rem 0;
+}
+
+.benefit {
+  padding-bottom: 110px;
+}
+.benefit-image {
+  width: 100%;
+}
+.benefit-title {
+  padding-top: 2rem;
+  color: rgb(24, 24, 50);
+  font-family: Raleway1;
+  font-weight: 700;
+  font-size: clamp(1rem, 1rem + 1.5vw, 2.5rem);
+}
+.benefit-des {
+  font-weight: 700;
+  color: rgb(82, 81, 88);
+}
+.benefit-input {
+  padding: 0.5rem 2.2rem;
+}
+.benefit-btn {
+  border: 1px solid var(--BrightBlue);
+  background-color: var(--BrightBlue);
+  padding: 0.5rem 1.75rem;
+  color: var(--white);
+  transition: all 0.8s ease;
+}
+
+.Prodactive {
+  background-image: url(images/bg-curve-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.Prodactive .prodactive-row {
+  padding-top: 100px;
+}
+
+footer {
+  border: 1px solid var(--BrightBlue);
+  background-color: var(--BrightBlue);
+  height: 125px;
+  margin-top: 234px;
+}/*# sourceMappingURL=style.css.map */

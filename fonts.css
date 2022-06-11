@@ -1,0 +1,16 @@
+@font-face {
+    font-family: one ;
+    src: url(fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+    font-family: Italic1 ;
+    src: url(fonts/OpenSans-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+    font-family: Raleway ;
+    src: url(fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Raleway1 ;
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
