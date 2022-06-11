@@ -6,6 +6,9 @@
 
   --LightGrayishBlue: hsl(240, 75%, 98%);
   --LightGray: hsl(0, 0%, 75%);
+
+  --VeryDarkBlue: hsl(243, 87%, 12%);
+  --DesaturatedBlue: hsl(238, 22%, 44%);
 }
 
 header {
@@ -39,21 +42,26 @@ header {
     transition: all 0.8s ease;
   }
 }
-
+.curve {
+  .curve-image {
+    width: 100%;
+  }
+}
 .Prodactive {
-   background-image: url(images/bg-curve-desktop.svg);
-  
-   background-repeat:no-repeat;
-   background-size:100%;
-  .prodactive-row{
-     padding-top: 100px;
-
+  background-color: var(--LightGrayishBlue);
+  padding-bottom: 6rem;
+  .prodactive-row {
   }
 }
 
+
+.signUp{
+  background-color: var(--DesaturatedBlue);
+  padding: 5rem 0;
+}
 footer {
-  border: 1px solid var(--BrightBlue);
-  background-color: var(--BrightBlue);
-  height: 125px;
-  margin-top: 234px;
+ 
+  background-color:var(--VeryDarkBlue);
+  height: 300px;
+
 }
