@@ -49,11 +49,13 @@
                 friends, family, and co-workers.
               </p>
               <input
+                id="input"
                 class="benefit-input"
                 type="text"
                 placeholder="Enter Your Email ..."
-              />
-              <button class="benefit-btn">Get Started</button>
+              /> 
+              <button class="benefit-btn" onclick="showError()">Get Started</button>
+              <p id="demo"></p>
             </div>
             <div class="col-md-6">
               <img
@@ -85,7 +87,18 @@
                 colleagues for live collaboration. No email attachments
                 required!
               </p>
-              <div class="commentBox"></div>
+              <div class="commentBox">
+                
+                <p class="commentbox-des">
+                  ،،</br>
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+
+                <img class="commentBox-avatar" src="images/avatar-testimonial.jpg" alt="#" />
+                <p class="commentbox-name">Kyle Burton </br>Founder & CEO, Huddle</p>
+              </div>
             </div>
             <div class="col-md-6">
               <img
@@ -121,6 +134,53 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="images/logo.svg" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/icon-phone.svg" alt="" />Phone: +1-543-123-4567
+            <img src="images/icon-email.svg" alt="" />example@fylo.com
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>About us</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul>
+              <li>Contact us</li>
+              <li>Terms</li>
+              <li>Privasy</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-social">
+              <a href="#">
+                <img src="images/icon-phone.svg" alt="#" />
+              </a>
+              <a href="#">
+                <img src="images/icon-email.svg" alt="#" />
+              </a>
+              <a href="#">
+                <img src="images/icon-arrow.svg" alt="#" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script src="script.js"></script>
   </body>
 </html>
