@@ -47,21 +47,66 @@ header {
     width: 100%;
   }
 }
-.Prodactive {
+.prodactive {
   background-color: var(--LightGrayishBlue);
-  padding-bottom: 6rem;
-  .prodactive-row {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  &-title {
+    color: rgb(24, 24, 50);
+    font-family: Raleway1;
+    font-weight: 700;
+    font-size: clamp(0.75rem, calc(1rem + 1.5vw), 2.3rem);
+  }
+  &-image {
+    width: 100%;
+  }
+  &-des {
+    color: rgb(82, 81, 88);
+    font-size: clamp(0.5rem, calc(0.75rem + 1.5vw), 1.2rem);
+  }
+
+  .commentBox {
+    margin-top: 3rem;
+    background-color: var(--white);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem;
+    padding-top: 0;
+    width: min(380px, 100%);
+    border-radius: 5px;
+    p::first-line {
+      font-style: 700;
+      font-size: clamp(1rem, calc(2rem + 1.5vw), 2.5rem);
+    }
+    &-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      position: relative;
+      top: -8px;
+    }
+    span::first-line {
+      font-weight: 700;
+    }
+    &-name {
+      font-size: 10px;
+      width: 150px;
+      display: inline-block;
+    }
   }
 }
 
-
-.signUp{
+.signUp {
   background-color: var(--DesaturatedBlue);
   padding: 5rem 0;
+  .signUp-title {
+    padding-top: 2rem;
+    color: rgb(24, 24, 50);
+    font-family: Raleway1;
+    font-weight: 700;
+    font-size: clamp(1rem, calc(1rem + 1.5vw), 2.5rem);
+  }
 }
 footer {
- 
-  background-color:var(--VeryDarkBlue);
+  background-color: var(--VeryDarkBlue);
   height: 300px;
-
 }
