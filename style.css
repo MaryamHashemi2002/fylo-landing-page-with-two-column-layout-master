@@ -102,8 +102,26 @@ header {
   font-weight: 700;
   font-size: clamp(1rem, 1rem + 1.5vw, 2.5rem);
 }
+.signUp-input {
+  padding-left: 1rem !important;
+  padding: 0.3rem 6rem;
+}
+.signUp-btn {
+  padding: 0.3rem 15px;
+  color: var(--white);
+  background-color: var(--BrightBlue);
+  border: 1px solid var(--BrightBlue);
+  font-size: 0.75rem;
+}
 
 footer {
   background-color: var(--VeryDarkBlue);
   height: 300px;
+}
+
+@media only screen and (width < 768px) {
+  .col-md-3 {
+    display: flex !important;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
