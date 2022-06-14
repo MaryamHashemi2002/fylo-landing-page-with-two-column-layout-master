@@ -115,13 +115,33 @@ header {
 }
 
 footer {
+  padding: 6rem;
+  color: var(--white);
   background-color: var(--VeryDarkBlue);
-  height: 300px;
+}
+footer .footer-logo {
+  width: 105px;
+}
+footer .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+footer .nav-link a {
+  color: var(--white);
 }
 
-@media only screen and (width < 768px) {
-  .col-md-3 {
-    display: flex !important;
-    align-items: center;
+@media only screen and (max-width: 768px) {
+  footer-logo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+  footer ul {
+    margin-top: 20px !important;
+    list-style: none;
+    padding: 0;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: var(--white);
+    gap: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */
