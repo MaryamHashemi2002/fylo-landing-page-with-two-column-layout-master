@@ -64,33 +64,49 @@ header {
     color: rgb(82, 81, 88);
     font-size: clamp(0.5rem, calc(0.75rem + 1.5vw), 1.2rem);
   }
-
-  .commentBox {
-    margin-top: 3rem;
-    background-color: var(--white);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 2rem;
-    padding-top: 0;
-    width: min(380px, 100%);
-    border-radius: 5px;
-    p::first-line {
-      font-style: 700;
-      font-size: clamp(1rem, calc(2rem + 1.5vw), 2.5rem);
-    }
-    &-avatar {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
+  #slider {
+    width: 404px;
+    // border: 1px solid green;
+    overflow: hidden;
+    margin-right: 10px;
+    padding: 7px;
+    #gallery {
+      display: flex;
+      // border: 1px solid red;
       position: relative;
-      top: -8px;
-    }
-    span::first-line {
-      font-weight: 700;
-    }
-    &-name {
-      font-size: 10px;
-      width: 150px;
-      display: inline-block;
+      transition: 0.5s;
+      left: 0px;
+      width: 400%;
+      gap: 2.5rem;
+      .commentBox {
+        margin-top: 3rem;
+
+        background-color: var(--white);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 2rem;
+        padding-top: 0;
+        width: min(380px, 100%);
+        border-radius: 5px;
+        p::first-line {
+          font-style: 700;
+          font-size: clamp(1rem, calc(2rem + 1.5vw), 2.5rem);
+        }
+        &-avatar {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          position: relative;
+          top: -8px;
+        }
+        span::first-line {
+          font-weight: 700;
+        }
+        &-name {
+          font-size: 10px;
+          width: 150px;
+          display: inline-block;
+        }
+      }
     }
   }
 }
@@ -124,7 +140,7 @@ footer {
   padding: 6rem;
   color: var(--white);
   background-color: var(--VeryDarkBlue);
-  span{
+  span {
     margin-left: 8px;
     font-size: clamp(0.25rem, calc(1rem + 1.5vw), 0.75rem);
     color: var(--LightGray);
@@ -155,7 +171,6 @@ footer {
         position: absolute;
         right: 7px;
         top: 7px;
-
       }
     }
   }

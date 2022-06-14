@@ -12,3 +12,23 @@ function showError() {
   }
   return 0;
 }
+
+var gallery = document.getElementById("gallery");
+var slider = document.getElementById("slider");
+
+var pos = 0;
+
+function move() {
+  if (pos > -300) {
+    pos = pos - 100;
+    gallery.style.left = pos + "%";
+  } else if (pos == -300) {
+    pos = 0;
+    gallery.style.left = pos + "%";
+  } else if (pos <= 0) {
+    pos = pos + 100;
+    gallery.style.right = pos + "%";
+  }
+
+  return 0;
+}

@@ -62,7 +62,21 @@ header {
   color: rgb(82, 81, 88);
   font-size: clamp(0.5rem, 0.75rem + 1.5vw, 1.2rem);
 }
-.prodactive .commentBox {
+.prodactive #slider {
+  width: 404px;
+  overflow: hidden;
+  margin-right: 10px;
+  padding: 7px;
+}
+.prodactive #slider #gallery {
+  display: flex;
+  position: relative;
+  transition: 0.5s;
+  left: 0px;
+  width: 400%;
+  gap: 2.5rem;
+}
+.prodactive #slider #gallery .commentBox {
   margin-top: 3rem;
   background-color: var(--white);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -71,21 +85,21 @@ header {
   width: min(380px, 100%);
   border-radius: 5px;
 }
-.prodactive .commentBox p::first-line {
+.prodactive #slider #gallery .commentBox p::first-line {
   font-style: 700;
   font-size: clamp(1rem, 2rem + 1.5vw, 2.5rem);
 }
-.prodactive .commentBox-avatar {
+.prodactive #slider #gallery .commentBox-avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   position: relative;
   top: -8px;
 }
-.prodactive .commentBox span::first-line {
+.prodactive #slider #gallery .commentBox span::first-line {
   font-weight: 700;
 }
-.prodactive .commentBox-name {
+.prodactive #slider #gallery .commentBox-name {
   font-size: 10px;
   width: 150px;
   display: inline-block;
