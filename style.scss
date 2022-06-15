@@ -71,7 +71,7 @@ header {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 2rem;
     padding-top: 0;
-    width:380px;
+    width:min(380px,100%);
     border-radius: 5px;
     p::first-line {
       font-style: 700;
@@ -176,5 +176,8 @@ footer {
     .footer-logo {
       width: 125px;
     }
+  }
+  .prodactive-image{
+    padding-bottom: 2.5rem;
   }
 }
